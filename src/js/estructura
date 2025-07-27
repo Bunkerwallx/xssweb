@@ -1,0 +1,27 @@
+xssweb/
+├── src/
+│   ├── js/
+│   │   ├── main.js          # Lógica principal del escáner
+│   │   ├── scanner.js       # Funciones de escaneo e inyección
+│   │   ├── ui.js            # Creación y manejo de la interfaz
+│   │   ├── utils.js         # Funciones auxiliares (escapeHtml, copiarTexto, etc.)
+│   │   └── i18n.js          # Traducciones y manejo de idiomas
+│   ├── css/
+│   │   └── styles.css       # Estilos de la interfaz
+│   ├── payloads/
+│   │   └── payloads.json    # Lista de payloads XSS
+│   └── translations/
+│       └── translations.json # Traducciones en español e inglés
+├── lib/
+│   └── dompurify.min.js     # Biblioteca DOMPurify para sanitización
+├── tests/
+│   ├── test.html            # Página de prueba para el escáner
+│   └── test.js              # Scripts de prueba
+├── dist/
+│   ├── xss-scanner.min.js   # Script compilado/minificado
+│   └── xss-scanner.css      # Estilos compilados/minificados
+├── package.json             # Configuración de Node.js y dependencias
+├── webpack.config.js        # Configuración de Webpack para empaquetado
+├── .gitignore               # Archivos a ignorar en Git
+├── README.md                # Documentación del proyecto
+└── LICENSE                  # Licencia del proyecto
